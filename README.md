@@ -64,8 +64,9 @@ Click on any image to view it full size.
    ```bash
    jupyter notebook ensemble_with_gin_lightgbm_stacking.ipynb
 
-*Note: This is for educational/portfolio demonstration only. Do not use for production without proper validation and domain expert review.
-License*
+*Note: This is for educational/portfolio demonstration only. Do not use for production without proper validation and domain expert review.*
+
+License
 
 MIT License – for personal/educational use only.
 
