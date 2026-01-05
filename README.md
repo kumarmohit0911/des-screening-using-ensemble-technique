@@ -66,7 +66,10 @@ Click on any image to view it full size.
 
 *Note: This is for educational/portfolio demonstration only. Do not use for production without proper validation and domain expert review.
 License*
+
 MIT License – for personal/educational use only.
+
 The underlying methodology and original paid work remain the intellectual property of the commissioning organization.
-Contact / Portfolio
+
+
 **Developed by Kumar Mohit**
