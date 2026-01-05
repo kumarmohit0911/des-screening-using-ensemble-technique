@@ -57,6 +57,7 @@ Binary classification task: predict whether a molecule is likely to form a **Dee
   Or generate synthetic molecules via RDKit (e.g., random SMILES from PubChem subsets or RDKit's MolFromSmiles generators)
 
 1. Run the main notebook/script :
+   ```bash
    jupyter notebook ensemble_with_gin_lightgbm_stacking.ipynb
 
 *Note: This is for educational/portfolio demonstration only. Do not use for production without proper validation and domain expert review.
