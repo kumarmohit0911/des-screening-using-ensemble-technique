@@ -46,3 +46,22 @@ Binary classification task: predict whether a molecule is likely to form a **Dee
 | Threshold vs F1 Score             | Optimal threshold ≈ 0.604                        | `threshold_vs_f1.png`        |
 | Prediction Probability Distribution | Clear separation between classes                | `probability_distribution.png` |
 
+## How to Run (Demonstration Only)
+
+1. Install dependencies
+   ```bash
+   pip install rdkit-pypi torch torchvision torchaudio torch-geometric pandas scikit-learn xgboost lightgbm joblib matplotlib seaborn
+
+2. Use a public / synthetic SMILES dataset
+  Example: Create a small demo_data.csv with columns smiles and form_DES (0/1)
+  Or generate synthetic molecules via RDKit (e.g., random SMILES from PubChem subsets or RDKit's MolFromSmiles generators)
+
+1. Run the main notebook/script :
+   jupyter notebook ensemble_with_gin_lightgbm_stacking.ipynb
+
+*Note: This is for educational/portfolio demonstration only. Do not use for production without proper validation and domain expert review.
+License*
+MIT License – for personal/educational use only.
+The underlying methodology and original paid work remain the intellectual property of the commissioning organization.
+Contact / Portfolio
+**Developed by Kumar Mohit**
