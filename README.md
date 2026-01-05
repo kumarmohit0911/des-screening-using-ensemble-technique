@@ -37,14 +37,18 @@ Binary classification task: predict whether a molecule is likely to form a **Dee
 
 ## Results Visualizations (from test set)
 
-| Plot                              | Description                                      | Link / File                  |
-|-----------------------------------|--------------------------------------------------|------------------------------|
-| ROC Curve                         | AUC = 0.972                                      | `roc_curve.png`              |
-| Precision-Recall Curve            | High precision at reasonable recall              | `precision_recall_curve.png` |
-| Confusion Matrix (raw)            | [[54  2] [ 9 76]]                                | `confusion_matrix_raw.png`   |
-| Normalized Confusion Matrix       | Shows class-wise performance                     | `confusion_matrix_normalized.png` |
-| Threshold vs F1 Score             | Optimal threshold ≈ 0.604                        | `threshold_vs_f1.png`        |
-| Prediction Probability Distribution | Clear separation between classes                | `probability_distribution.png` |
+## Results Visualizations (from test set)
+
+Click on any image to view it full size.
+
+| Plot                              | Description                                      | Preview (click to enlarge)                                                                 |
+|-----------------------------------|--------------------------------------------------|--------------------------------------------------------------------------------------------|
+| ROC Curve                         | AUC = 0.972                                      | [![ROC Curve](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/raw/main/roc_curve.png)](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/blob/main/roc_curve.png) |
+| Precision-Recall Curve            | High precision at reasonable recall              | [![Precision-Recall Curve](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/raw/main/precision_recall_curve.png)](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/blob/main/precision_recall_curve.png) |
+| Confusion Matrix (raw)            | [[54  2] [ 9 76]]                                | [![Confusion Matrix Raw](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/raw/main/confusion_matrix_raw.png)](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/blob/main/confusion_matrix_raw.png) |
+| Normalized Confusion Matrix       | Shows class-wise performance                     | [![Normalized Confusion Matrix](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/raw/main/confusion_matrix_normalized.png)](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/blob/main/confusion_matrix_normalized.png) |
+| Threshold vs F1 Score             | Optimal threshold ≈ 0.604                        | [![Threshold vs F1](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/raw/main/threshold_vs_f1.png)](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/blob/main/threshold_vs_f1.png) |
+| Prediction Probability Distribution | Clear separation between classes                | [![Probability Distribution](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/raw/main/probability_distribution.png)](https://github.com/kumarmohit0911/des-screening-using-ensemble-technique/blob/main/probability_distribution.png) |
 
 ## How to Run (Demonstration Only)
 
